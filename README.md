@@ -1,13 +1,8 @@
 # Webdriverio Example Suite
-an example of an automated intergration test suite using webdriverio
+an example of an automated intergration test suite using webdriverio. This example written using
 
-### setup
+a page object pattern. 
 
-  `npm install`
-  
-  `webdriver-manager start` 
-  
-  ensure that a local copy of spectrum is up and running. 
     
 ### commands to run test suites
 
