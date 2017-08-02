@@ -1,5 +1,5 @@
-# fly-integration-tests
-end to end integration tests of Flywheel
+# Webdriverio Example Suite
+an example of an automated intergration test suite using webdriverio
 
 ### setup
 
