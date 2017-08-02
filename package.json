@@ -1,0 +1,36 @@
+{
+  "name": "fly-integration-tests",
+  "version": "1.0.0",
+  "description": "end to end integration tests of Flywheel",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "basic": "wdio wdio.conf.js --suite basic",
+    "smoke": "wdio wdio.conf.js --suite smoke",
+    "tasksSmoke": "wdio wdio.conf.js --spec ./test/tasksSmoke_tests.js",
+    "people": "wdio wdio.conf.js --spec ./test/peopleSmoke_test.js",
+    "sitesSmoke": "wdio wdio.conf.js --spec ./test/sitesSmoke.js",
+    "tasksRegression": "wdio wdio.conf.js --suite tasksRegression",
+    "taskAdd": "wdio wdio.conf.js --spec ./test/tasksAddRegression_tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flywheelbi/fly-integration-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flywheelbi/fly-integration-tests/issues"
+  },
+  "homepage": "https://github.com/flywheelbi/fly-integration-tests#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "supertest": "^3.0.0",
+    "wdio-junit-reporter": "^0.3.0",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriver-manager": "^12.0.6",
+    "webdriverio": "^4.8.0"
+  }
+}
